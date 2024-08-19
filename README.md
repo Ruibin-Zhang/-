@@ -1,3 +1,9 @@
+#Midification
+1. Only function_recovery is used.
+2. The elevators for different floors is considered for high buildings.
+3. The influence of different earthquake intensites on the utility disruption is considered.
+4. The resilience is quantified based on R index.
+
 #Pelicun-treads使用流程
 	
 	1. SAUSAGE_RID.ipynb-pelicun #获得维修费用/时间（FEMA P58）
