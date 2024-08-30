@@ -35,7 +35,8 @@
 		○ loss_sample_dmg.csv 损失信息按照易损性组分类
 		○ loss_sample_loc.csv 损失信息安照楼层分类
 	恢复轨迹程序（数据输出文件夹Output_treads）
-	3. Treads_RC
+	
+ 	3. Treads_RC
 	• 数据准备
 		○ Repair_Class_Table.csv 维修等级信息
 	• 数据输出
