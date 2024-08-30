@@ -6,7 +6,7 @@
 
 #Pelicun-treads使用流程
 	
-	1. SAUSAGE_RID.ipynb-pelicun #获得维修费用/时间（FEMA P58）
+	1. Pelicun_RID.ipynb #获得维修费用/时间（FEMA P58）
 	• 数据准备
 		○ 原始数据：EDPs.xlsx
 		○ Matlab处理：Monte carlo procedure - SAUSAGE-R1.m
@@ -21,11 +21,8 @@
 		○ FG_damage.csv 本次选取的易损性数据
 		○ FG_cost-time.csv 本次选取的易损性数据对于的修复时间和费用
 		○ DMG_sample.csv 各性能组损伤样本
-		○ DMG_sample-DamageStateWeights.csv 存在损伤状态共存（Simultaneous）的性能组
 		○ loss_sample.csv 损失样本
 		○ DL_summary.csv 损失统计信息
-		○ loss_sample_dmg.csv 损失信息按照易损性组分类
-		○ loss_sample_loc.csv 损失信息安照楼层分类
 		
 	2. Preprocessing.ipynb #数据前处理
 	• 数据准备
@@ -35,13 +32,12 @@
 		○ DMG_sample-R.csv 调整表头，用于计算修复费用和时间
 		○ DMG_sample-DamageStateWeights.csv 将各损伤状态按照所属极限状态（LS）归类
 		○ DV_rec_time.csv 修复时间样本
-		
+		○ loss_sample_dmg.csv 损失信息按照易损性组分类
+		○ loss_sample_loc.csv 损失信息安照楼层分类
 	恢复轨迹程序（数据输出文件夹Output_treads）
 	3. Treads_RC
 	• 数据准备
 		○ Repair_Class_Table.csv 维修等级信息
-	• 数据处理
-		○ RCmax_RS 每层每个sequence的最大RC
 	• 数据输出
 		○ RC_component.csv 将损伤状态与维修等级一一对应
 		
